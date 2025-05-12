@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WDD231 Homepage of Mauricio Vera" />
+  <meta name="author" content="Mauricio Vera" />
+  <title>Mauricio Vera | WDD231</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" href="styles/large.css" />
+  <script src="scripts/navigation.js" defer></script>
+  <script defer src="scripts/date.js"></script>
+  <script defer src="scripts/course.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/profile.jpg" alt="Mauricio Vera" />
+    <span>Mauricio Vera</span>
+    <button id="menuButton" aria-label="Toggle menu">&#9776;</button>
+  </header>
+
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+        <a href="https://github.com/yourusername">GitHub</a>
+        <a href="https://linkedin.com">LinkedIn</a>
+    </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <div class="top-cards">
+        <section class="course-work">
+        <h2>Course Work</h2>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+        </section>
+
+        <section class="region-card">
+        <h2>Tamaulipas, Mexico</h2>
+        <img src="images/cuera.jpg" alt="cuera Tamaulipeca" />
+        <p>Cuera Tamaulipeca</p>
+        </section>
+    </div>
+
+    <section>
+      <h2>Web and Computer Programming Certificate</h2>
+
+      <div class="filters">
+        <button id="allBtn">All</button>
+        <button id="cseBtn">CSE</button>
+        <button id="wddBtn">WDD</button>
+      </div>
+
+      <p id="courseCount"></p>
+      <div id="courseContainer" class="course-grid"></div>
+      
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> | Mauricio Vera | Tamaulipas, Mexico <img src="images/mx-flag.png" alt="Mexico flag" width="24" /></p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
