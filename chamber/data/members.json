@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "name": "Tamaulipas Tech Solutions",
+      "address": "123 Innovation Blvd, Ciudad Victoria",
+      "phone": "+52 834 123 4567",
+      "website": "https://tamautech.mx",
+      "image": "tamautech.jpg",
+      "membershipLevel": 3
+    },
+    {
+      "name": "La Esquina Café",
+      "address": "456 Main St, Tampico",
+      "phone": "+52 833 987 6543",
+      "website": "https://laesquinacafe.com",
+      "image": "laesquina.jpg",
+      "membershipLevel": 2
+    },
+    {
+      "name": "Vega Construction",
+      "address": "789 Builders Ave, Reynosa",
+      "phone": "+52 899 456 7890",
+      "website": "https://vegaconstruye.mx",
+      "image": "vega.jpg",
+      "membershipLevel": 1
+    },
+    {
+      "name": "EcoPrint Tamaulipas",
+      "address": "321 Green Rd, Madero",
+      "phone": "+52 833 765 4321",
+      "website": "https://ecoprintmx.com",
+      "image": "ecoprint.png",
+      "membershipLevel": 2
+    },
+    {
+      "name": "Salud Natural",
+      "address": "654 Wellness Ave, Matamoros",
+      "phone": "+52 868 112 3344",
+      "website": "https://saludnatural.mx",
+      "image": "saludnatural.jpg",
+      "membershipLevel": 3
+    },
+    {
+      "name": "Ríos Accounting",
+      "address": "159 Accounting Plaza, Nuevo Laredo",
+      "phone": "+52 867 998 7766",
+      "website": "https://riosaccounting.com",
+      "image": "rios.png",
+      "membershipLevel": 1
+    },
+    {
+      "name": "Arte & Diseño Studio",
+      "address": "753 Creative Blvd, Ciudad Mante",
+      "phone": "+52 831 223 4455",
+      "website": "https://artediseno.mx",
+      "image": "artediseno.png",
+      "membershipLevel": 2
+    }
+  ]
+}
