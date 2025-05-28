@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Tamaulipas Chamber of Commerce Member Home Page"/>
+  <meta name="author" content="Mauricio Vera"/>
+  
+  <!-- Facebook Open Graph Meta -->
+  <meta property="og:title" content="Tamaulipas Chamber of Commerce"/>
+  <meta property="og:description" content="Discover local businesses and organizations in Tamaulipas."/>
+  <meta property="og:image" content="images/herocc.webp"/>
+  <meta property="og:url" content="https://example.com/chamber/directory.html"/>
+
+  <link rel="icon" href="images/favicon.ico"/>
+  <link rel="stylesheet" href="styles/directory.css"/>
+  <link rel="stylesheet" href="styles/home.css"/>
+  
+
+  <title>Tamaulipas Chamber of Commerce | home Page</title>
+
+</head>
+<body>
+  <header>
+  <div class="branding">
+    <img src="images/logo.png" alt="Tamaulipas Chamber of Commerce Logo"/>
+    <h1>Tamaulipas Chamber of Commerce</h1>
+  </div>
+
+  <button id="menu-toggle" aria-label="Toggle Navigation">☰</button>
+
+  <nav>
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="directory.html" class="active">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="discover.html">Discover</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main>
+    <!-- call to action -->
+    <section class="cta">
+      <h2>Join the Tamaulipas Chamber of Commerce</h2>
+      <p>Connect, grow, and succeed with local businesses. Become a member today!</p>
+      <a href="join.html" class="cta-button">Join Now</a>
+    </section>
+
+
+    <!-- Current Events -->
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li><strong>Business Breakfast:</strong> June 5 at 8:00 AM</li>
+        <li><strong>Farmers Market:</strong> Every Saturday 9 AM – 1 PM</li>
+        <!-- Add more -->
+      </ul>
+    </section>
+
+    <!-- Weather Info -->
+    <section class="weather">
+      <h2>Current Weather</h2>
+      <p id="current-temp">Temp: ...</p>
+      <p id="weather-desc">Conditions: ...</p>
+
+      <h3>3-Day Forecast</h3>
+      <div id="forecast" class="forecast"></div>
+    </section>
+
+    <!-- Spotlights -->
+    <section class="spotlights">
+      <h2>Member Spotlights</h2>
+      <div id="spotlight-container" class="spotlight-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-info">
+      <p><strong>Tamaulipas Chamber of Commerce</strong><br>
+      info@Tamaulipascc.org | (123) 456-7890</p>
+    </div>
+    <div class="footer-dev">
+      <p>WDD231 Class Project || Mauricio Vera<br>
+      &copy; <span id="year"></span> Tamaulipas Chamber of Commerce</p>
+      <p>Last Modification: <span id="lastModified"></span></p>
+    </div>
+  </footer>
+
+  <script src="scripts/spotlight.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/footer-date.js" defer></script>
+  <script src="scripts/menu-toggle.js" defer></script>
+</body>
+</html>
