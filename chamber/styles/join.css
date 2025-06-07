@@ -1,0 +1,190 @@
+.card {
+    animation: fadeIn 2s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* General layout */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 3rem;
+}
+
+/* Form styling */
+form {
+    display: grid;
+    gap: 1.5rem;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #333;
+}
+
+form input,
+form textarea,
+form select {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+form input[type="submit"] {
+    display: inline-block;
+    background-color: #3c1717;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #6d1a1a;
+    color: #f5d3d3;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    position: relative;
+}
+
+.modal .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Membership Cards */
+.membership-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.membership-cards .card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #e9f4fb;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+
+.membership-cards .card:hover {
+    transform: translateY(-4px);
+}
+
+.membership-cards .card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.membership-cards .card p {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.membership-cards .card a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #3c1717;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+}
+
+.membership-cards .card a:hover {
+    border-color: #6d1a1a;
+}
+
+/* Distinct card colors */
+.membership-cards .bronze {
+    background-color: #997b42;
+}
+
+.membership-cards .silver {
+    background-color: #bebebe;
+}
+
+.membership-cards .gold {
+    background-color: #d6b600;
+}
+
+.membership-cards .np {
+    background-color: #d0f0c0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+
+    form {
+        padding: 1.5rem;
+    }
+}
