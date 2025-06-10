@@ -1,0 +1,240 @@
+
+/* dinosaur.css */
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #c2b280;
+    border: 2px solid #4B3D2A;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 0.5rem 0;
+    color: #112d4e;
+}
+
+.card p {
+    padding: 0 1rem;
+    color: #555;
+}
+
+.card-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+}
+
+.card:nth-child(1) { grid-area: card1; }
+.card:nth-child(2) { grid-area: card2; }
+/* ...and so on */
+
+@media (min-width: 641px) {
+  .card-container {
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+  }
+}
+
+@media (min-width: 1025px) {
+  .card-container {
+    grid-template-areas:
+      "card1 card2 card3 card4"
+      "card5 card6 card7 card8";
+  }
+}
+
+main {
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #f0e1ce;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* GRID LAYOUT */
+.discover-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+}
+
+.card {
+  background: linear-gradient(to right, #4B3D2A, #938763);
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: #ffffff;
+}
+
+.card figure {
+  margin: 0;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 3 / 2;
+  object-fit:fill;
+  border-radius: 1rem;
+  background-color: #ede7de;
+}
+
+.card address,
+.card p {
+  margin: 0 1rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.card button {
+  margin: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  background-color: #f0e1ce;
+  color: #4B3D2A;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #a67c3d;
+  color: #4B3D2A;
+}
+
+/* Hover effect only on desktop */
+@media (min-width: 641px) {
+  .card:hover {
+    transform: scale(1.02);
+  }
+}
+
+/* Medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .discover-grid {
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  .discover-grid {
+    grid-template-areas:
+      "card1 card2 card3 card4"
+      "card5 card6 card7 card8";
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 5vh;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #f0e1ce;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 800px;
+  color: #4B3D2A;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content h2 {
+  color: #4B3D2A;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+  object-fit: fill;
+  aspect-ratio: 3 / 2;
+}
+
+.modal-content address,
+.modal-content p {
+  margin-bottom: 1rem;
+  color:#4B3D2A;
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #a67c3d;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

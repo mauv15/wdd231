@@ -1,0 +1,78 @@
+/* join.css */
+
+/* Main Container */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(to right, #4B3D2A, #938763);
+  color: white;
+  border-radius: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Form Title */
+main h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #4B3D2A;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Labels and Inputs */
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Submit Button */
+button,
+input[type="submit"] {
+  background-color: #f0e1ce;
+  color: #4B3D2A;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #a67c3d;
+  transform: scale(1.02);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+}

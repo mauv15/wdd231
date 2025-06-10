@@ -1,0 +1,28 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #2d6a4f;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #2d6a4f;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}

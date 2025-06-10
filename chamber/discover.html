@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/directory.css" />
+    <link rel="stylesheet" href="styles/discover.css" />
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/logo.png" alt="Tamaulipas Chamber of Commerce Logo" />
+            <h1>Tamaulipas Chamber of Commerce</h1>
+        </div>
+
+        <button id="menu-toggle" aria-label="Toggle Navigation" aria-expanded="false"
+            aria-controls="primary-navigation">☰</button>
+
+        <nav id="primary-navigation">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="visit-msg" class="visit-message"></div>
+        <div class="card-container"></div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <p><strong>Tamaulipas Chamber of Commerce</strong><br>
+                info@Tamaulipascc.org | (123) 456-7890</p>
+        </div>
+        <div class="footer-dev">
+            <p>WDD231 Class Project || Mauricio Vera<br>
+                &copy; <span id="year"></span> Tamaulipas Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/discover.js"></script>
+    <script src="scripts/footer-date.js" defer></script>
+    <script src="scripts/menu-toggle.js" defer></script>
+</body>
+
+</html>

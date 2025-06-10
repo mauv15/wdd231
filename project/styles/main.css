@@ -1,0 +1,79 @@
+/* main.css */
+
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #d6cdaf;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #4B3D2A;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+nav a:hover{
+  color: #4B3D2A;
+  background-color: #d6cdaf;
+  border-radius: 1rem;
+
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.buttons button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #a67c3d;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    justify-self: flex-end;
+    text-align: center;
+    padding: 1rem;
+    background-color: #4B3D2A;
+    color: white;
+    margin-top: 2rem;
+}
+

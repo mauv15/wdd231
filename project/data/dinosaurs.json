@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Tyrannosaurus rex",
+    "image": "images/tyrannosaurus.jpg",
+    "family": "Tyrannosauridae",
+    "type": "theropod",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North America"
+  },
+  {
+    "name": "Velociraptor",
+    "image": "images/velociraptor.jpg",
+    "family": "Dromaeosauridae",
+    "type": "theropod",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "Central Asia (Mongolia)"
+  },
+  {
+    "name": "Spinosaurus",
+    "image": "images/spinosaurus.webp",
+    "family": "Spinosauridae",
+    "type": "theropod",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North Africa"
+  },
+  {
+    "name": "Allosaurus",
+    "image": "images/allosaurus.jpg",
+    "family": "Allosauridae",
+    "type": "theropod",
+    "era": "Late Jurassic",
+    "time": 150,
+    "where": "North America, Europe, Africa"
+  },
+  {
+    "name": "Carnotaurus",
+    "image": "images/carnotaurus.png",
+    "family": "Abelisauridae",
+    "type": "theropod",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "South America"
+  },
+  {
+    "name": "Utahraptor",
+    "image": "images/utahraptor.webp",
+    "family": "Dromaeosauridae",
+    "type": "theropod",
+    "era": "Early Cretaceous",
+    "time": 125,
+    "where": "North America"
+  },
+  {
+    "name": "Therizinosaurus",
+    "image": "images/therizinosaurus.webp",
+    "family": "Therizinosauridae",
+    "type": "theropod",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "Asia (Mongolia)"
+  },
+  {
+    "name": "Brachiosaurus",
+    "image": "images/brachiosaurus.webp",
+    "family": "Brachiosauridae",
+    "type": "sauropod",
+    "era": "Late Jurassic",
+    "time": 150,
+    "where": "North America, Africa"
+  },
+  {
+    "name": "Apatosaurus",
+    "image": "images/apatosaurus.jpg",
+    "family": "Diplodocidae",
+    "type": "sauropod",
+    "era": "Late Jurassic",
+    "time": 150,
+    "where": "North America"
+  },
+  {
+    "name": "Diplodocus",
+    "image": "images/diplodocus.jpg",
+    "family": "Diplodocidae",
+    "type": "sauropod",
+    "era": "Late Jurassic",
+    "time": 150,
+    "where": "North America"
+  },
+  {
+    "name": "Argentinosaurus",
+    "image": "images/argentinosaurus.jpg",
+    "family": "Titanosauridae",
+    "type": "sauropod",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "South America"
+  },
+  {
+    "name": "Dreadnoughtus",
+    "image": "images/dreadnoughtus.jpg",
+    "family": "Titanosauridae",
+    "type": "sauropod",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "South America"
+  },
+  {
+    "name": "Camarasaurus",
+    "image": "images/camarasaurus.jpg",
+    "family": "Camarasauridae",
+    "type": "sauropod",
+    "era": "Late Jurassic",
+    "time": 150,
+    "where": "North America"
+  },
+  {
+    "name": "Triceratops",
+    "image": "images/triceratops.jpg",
+    "family": "Ceratopsidae",
+    "type": "Ceratopsian",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North America"
+  },
+  {
+    "name": "Styracosaurus",
+    "image": "images/styracosaurus.jpg",
+    "family": "Ceratopsidae",
+    "type": "Ceratopsian",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North America"
+  },
+  {
+    "name": "Pachyrhinosaurus",
+    "image": "images/pachyrhinosaurus.png",
+    "family": "Ceratopsidae",
+    "type": "Ceratopsian",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North America"
+  },
+  {
+    "name": "Centrosaurus",
+    "image": "images/centrosaurus.webp",
+    "family": "Ceratopsidae",
+    "type": "Ceratopsian",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North America"
+  },
+  {
+    "name": "Chasmosaurus",
+    "image": "images/chasmosaurus.webp",
+    "family": "Ceratopsidae",
+    "type": "Ceratopsian",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North America"
+  },
+  {
+    "name": "Torosaurus",
+    "image": "images/torosaurus.png",
+    "family": "Ceratopsidae",
+    "type": "Ceratopsian",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North America"
+  },
+  {
+    "name": "Diabloceratops",
+    "image": "images/diabloceratops.webp",
+    "family": "Ceratopsidae",
+    "type": "Ceratopsian",
+    "era": "Late Cretaceous",
+    "time": 75,
+    "where": "North America"
+  }
+]

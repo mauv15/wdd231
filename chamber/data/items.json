@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Playa Miramar",
+    "image": "images/playa-miramar.jpg",
+    "address": "Ciudad Madero, Tamaulipas",
+    "description": "A beautiful beach on the Gulf of Mexico, perfect for relaxation, sunbathing, and water sports."
+  },
+  {
+    "title": "Centro Histórico de Tampico",
+    "image": "images/centro-tampico.jpg",
+    "address": "Tampico, Tamaulipas",
+    "description": "Explore colonial architecture, plazas, and local shops in the vibrant historic center of Tampico."
+  },
+  {
+    "title": "Laguna del Carpintero",
+    "image": "images/laguna-carpintero.jpg",
+    "address": "Tampico, Tamaulipas",
+    "description": "A scenic lagoon surrounded by wildlife, trails, and the iconic Tampico Ferris wheel."
+  },
+  {
+    "title": "Parque Bicentenario",
+    "image": "images/parque-bicentenario.jpeg",
+    "address": "Ciudad Victoria, Tamaulipas",
+    "description": "Family-friendly park with museums, botanical gardens, and playgrounds for outdoor enjoyment."
+  },
+  {
+    "title": "Reserva Ecológica El Cielo",
+    "image": "images/reserva-el-cielo.jpeg",
+    "address": "Gómez Farías, Tamaulipas",
+    "description": "A UNESCO-recognized biosphere reserve with cloud forests and diverse ecosystems for eco-tourism."
+  },
+  {
+    "title": "Mercado Municipal de Tampico",
+    "image": "images/mercado-tampico.jpeg",
+    "address": "Tampico, Tamaulipas",
+    "description": "Bustling market full of local flavors, traditional food, crafts, and friendly vendors."
+  },
+  {
+    "title": "Museo Regional de Historia",
+    "image": "images/museo-historia-victoria.jpeg",
+    "address": "Ciudad Victoria, Tamaulipas",
+    "description": "A museum showcasing the cultural and historical heritage of Tamaulipas and its people."
+  },
+  {
+    "title": "Casa de la Cultura",
+    "image": "images/casa-cultura-matamoros.jpg",
+    "address": "Matamoros, Tamaulipas",
+    "description": "A cultural hub promoting arts, dance, music, and exhibitions for the local community."
+  }
+]

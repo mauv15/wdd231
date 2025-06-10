@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/join.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">DINO</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dinosaurs.html">Dinosaurs</a></li>
+                <li><a href="join.html">join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="join-intro">
+            <h2>Join the Dino Discovery Community!</h2>
+            <p>Get access to exclusive content, fossil news, virtual museum tours, and more!</p>
+        </section>
+        <form class="join-form" method="post" action="#">
+            <label for="fname">First Name *</label>
+            <input type="text" id="fname" name="fname" required>
+
+            <label for="lname">Last Name *</label>
+            <input type="text" id="lname" name="lname" required>
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="membership">Choose a Membership</label>
+            <select id="membership" name="membership">
+                <option value="basic">Basic - Free</option>
+                <option value="enthusiast">Enthusiast - $5/month</option>
+                <option value="expert">Expert - $10/month</option>
+            </select>
+
+            <label for="message">Why do you love dinosaurs?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Join Now</button>
+        </form> 
+    </main>
+    <footer>
+        <p>&copy; 2025 Dino Discovery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
