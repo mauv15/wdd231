@@ -1,7 +1,7 @@
 let dinosaurs = [];  // store all data globally for filtering
 
 async function loadCards() {
-  const response = await fetch('data/dinosaurs.json');
+  const response = await fetch('./data/dinosaurs.json');
   dinosaurs = await response.json(); // store globally
   displayCards(dinosaurs); // initially show all
 }
